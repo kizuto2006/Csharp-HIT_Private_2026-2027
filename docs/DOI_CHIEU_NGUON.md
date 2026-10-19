@@ -6,7 +6,7 @@ Các file học liệu được sao chép trực tiếp từ Git blob, không ch
 
 Buổi 2 cũ được phân bổ: 8 file chi tiết số 1–8 chuyển sang buổi 1; 12 file số 9–20 ở buổi 2. File tổng hợp phần 1 chuyển nguyên vẹn sang buổi 1, phần 2 ở buổi 2. Tài liệu gốc buổi 3–5 và BTVN buổi 2–5 giữ đúng buổi; thư mục tài liệu chi tiết được thống nhất thành `Tai_lieu_cu_the`.
 
-File tổng hợp có nội dung giao nhau giữa các buổi được giữ nguyên và liên kết từ README của buổi liên quan. Không tách, ghép hoặc nhân bản từng đoạn nội dung. Tên/tiêu đề cũ bên trong tài liệu vẫn giữ nguyên theo yêu cầu.
+File tổng hợp có nội dung giao nhau giữa các buổi được giữ nguyên và liên kết từ Muc_luc.md của buổi liên quan. Không tách, ghép hoặc nhân bản từng đoạn nội dung. Tên/tiêu đề cũ bên trong tài liệu vẫn giữ nguyên theo yêu cầu.
 
 | Đường dẫn trong repo nguồn | Đường dẫn trong repo hiện tại |
 | --- | --- |
@@ -67,4 +67,4 @@ File tổng hợp có nội dung giao nhau giữa các buổi được giữ ngu
 
 ## Nguồn lộ trình
 
-[Google Sheet](https://docs.google.com/spreadsheets/d/1my3AabWSuw7k8Oqvb2BUjIClRaJqPEOtVigYYT0cl9M/edit?gid=0#gid=0) được lưu nguyên bản CSV ở [lo_trinh_sheet.csv](lo_trinh_sheet.csv). Dữ liệu gồm 20 buổi và một dòng 21+; không suy diễn thêm 10 buổi riêng lẻ từ dòng dự kiến. Các README từng buổi chép phần Nội dung/Ghi chú/Tài liệu của đúng dòng trong Sheet, kèm danh sách file hiện có và phần cần bổ sung.
+[Google Sheet](https://docs.google.com/spreadsheets/d/1my3AabWSuw7k8Oqvb2BUjIClRaJqPEOtVigYYT0cl9M/edit?gid=0#gid=0) được lưu nguyên bản CSV ở [lo_trinh_sheet.csv](lo_trinh_sheet.csv). Dữ liệu gồm 20 buổi và một dòng 21+; không suy diễn thêm 10 buổi riêng lẻ từ dòng dự kiến. Các file Muc_luc.md từng buổi chép phần Nội dung/Ghi chú/Tài liệu của đúng dòng trong Sheet, kèm danh sách file hiện có và phần cần bổ sung.

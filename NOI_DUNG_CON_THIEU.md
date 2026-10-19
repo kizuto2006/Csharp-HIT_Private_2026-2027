@@ -12,7 +12,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 1: Git, công cụ và C# nhập môn
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_1/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_1/Muc_luc.md)
 
 - Chưa có hướng dẫn cài đặt/thực hành Git Bash, GitHub Desktop, Fork và thiết lập JetBrains Rider / Visual Studio; tài liệu Git hiện có chủ yếu giải thích Git và lệnh Git.
 - Chưa có tài liệu giới thiệu, quy ước sinh hoạt lớp và hướng dẫn dùng tài nguyên của lớp. Mục lục mới chỉ cung cấp lộ trình học.
@@ -22,7 +22,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 2: Điều kiện, vòng lặp, mảng, chuỗi và hàm
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_2/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_2/Muc_luc.md)
 
 - Chưa có phần giải thích/thực hành `continue` và dùng `break` trong vòng lặp; `break` hiện được giải thích ở switch-case.
 - `foreach` được liệt kê trong tài liệu vòng lặp và có ví dụ ở buổi 3, nhưng chưa có bài giải thích riêng về cú pháp và cách duyệt mảng bằng `foreach`.
@@ -34,7 +34,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 3: Kiểu dữ liệu mở rộng và collections
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_3/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_3/Muc_luc.md)
 
 - Chưa có bài giải thích và ví dụ sử dụng `object`, `var`, `dynamic`; các từ khóa này hiện chủ yếu được nhắc tên hoặc xuất hiện trong ví dụ ở buổi khác.
 - Chưa có tài liệu về `HashSet<T>` và `#region`.
@@ -46,7 +46,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 4: OOP C# cơ bản
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_4/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_4/Muc_luc.md)
 
 - Chưa có bài giải thích cách truyền tham số `ref` / `out` cho instance method; các từ khóa này hiện xuất hiện rải rác trong ví dụ `TryParse`, struct và generic `Swap`.
 - Chưa có tài liệu về null conditional `?.` và null coalescing `??`.
@@ -57,7 +57,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 5: OOP nâng cao, generic, delegate, SOLID và LINQ
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_5/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_5/Muc_luc.md)
 
 - Chưa có interface `IGetHit` và ví dụ implement lấy từ project Tank Battle.
 - Chưa có Generic Constraint: `where T : class`, `where T : MonoBehaviour`, `where T : Component`.
@@ -70,7 +70,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 6: Review OOP và làm quen Unity Editor
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_6/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_6/Muc_luc.md)
 
 - Chưa có đề kiểm tra OOP, đáp án/thang điểm, tài liệu sửa bài và câu hỏi review. BTVN OOP ở buổi 4–5 chỉ là tài liệu tham khảo, không thay thế đề kiểm tra.
 - Chưa có tài liệu Unity Editor (Scene, Game, Project, Inspector, Hierarchy, Console), tạo GameObject, mô hình GameObject–Component và Package Manager.
@@ -80,7 +80,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 7: GameObject, Transform và các component 2D
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_7/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_7/Muc_luc.md)
 
 - Chưa có tài liệu Transform (Position/Rotation/Scale), hệ tọa độ 2D và Space.World / Space.Self.
 - Chưa có hướng dẫn import sprite, SpriteRenderer, Sorting Layer / Order in Layer.
@@ -91,7 +91,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 8: Lifecycle, thời gian, input và Physics2D
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_8/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_8/Muc_luc.md)
 
 - Chưa có tài liệu chuỗi lifecycle MonoBehaviour từ Awake đến OnDestroy theo Sheet.
 - Chưa có bài Time.deltaTime, chuyển động độc lập framerate và Time.timeScale.
@@ -103,7 +103,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 9: Prefab, animation và scoring
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_9/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_9/Muc_luc.md)
 
 - Chưa có bài Prefab, Prefab Variant, unpack, Instantiate và Destroy có delay.
 - Chưa có bài Animator Controller (state/transition/parameter), SetTrigger/SetBool/SetFloat và Animation Clip.
@@ -113,7 +113,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 10: UI và HUD
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_10/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_10/Muc_luc.md)
 
 - Chưa có bài Canvas (Overlay/Camera/World Space) và Rect Transform (Anchor/Pivot/Stretch).
 - Chưa có bài Image/Fill Amount, Button/OnClick, Slider và TextMesh Pro/TMP Essential Resources/TMP_Text.
@@ -123,7 +123,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 11: Singleton và Object Pooling
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_11/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_11/Muc_luc.md)
 
 - Chưa có tài liệu Singleton generic, vấn đề nhiều Manager instance, DontDestroyOnLoad và xử lý duplicate instance.
 - Chưa có tài liệu Object Pooling, GC spike, pool bật/tắt object và Spawn/Despawn.
@@ -133,7 +133,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 12: Coroutine, ScriptableObject và lưu dữ liệu
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_12/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_12/Muc_luc.md)
 
 - Chưa có tài liệu Coroutine: IEnumerator, StartCoroutine/StopCoroutine, yield return null, WaitForSeconds, WaitForFixedUpdate và cache lệnh chờ.
 - Chưa có bài ScriptableObject, `[CreateAssetMenu]`, `[System.Serializable]`, CreateInstance và quản lý dữ liệu cấu hình.
@@ -144,7 +144,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 13: DOTween, Animator nâng cao và âm thanh
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_13/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_13/Muc_luc.md)
 
 - Chưa có tài liệu giới thiệu DOTween.
 - Chưa có bài Blend Tree, Animation Event và AnimatorOverrideController.
@@ -154,7 +154,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 14: Observer và Factory
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_14/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_14/Muc_luc.md)
 
 - Chưa có bài Observer: tight coupling, Publish/Subscribe, generic static ObserverManager<T> where T : Enum và Action<object>.
 - Chưa có mã nguồn/ví dụ AddRegisterEvent, PostEvent, RemoveAddListener, RemoveAllEvent và AchievementManager.cs đăng ký/hủy đăng ký sự kiện.
@@ -164,7 +164,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 15: State Machine
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_15/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_15/Muc_luc.md)
 
 - Chưa có bài State Machine, enum GameState (Playing/Paused/GameOver/ChoosingReward), switch-case chuyển state và kiểm tra transition.
 - Chưa có GamePlayManager để đọc IsGamePaused, IsChoosingReward và IsInstructionShown.
@@ -173,7 +173,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 16: Visual Effects và URP
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_16/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_16/Muc_luc.md)
 
 - Chưa có tài liệu Particle System và các module Emission/Shape/Lifetime/Size/Color/Velocity.
 - Chưa có thực hành explosion, muzzle flash, appear effect; pool particle, ps.Play và despawn theo duration + maxLifetime.
@@ -184,7 +184,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 17: Scene Management và Menu Flow
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_17/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_17/Muc_luc.md)
 
 - Chưa có bài SceneManager.LoadScene theo tên/index, LoadSceneAsync, AsyncOperation.progress và GetActiveScene().name.
 - Chưa có LoadScene.cs với fade out → load async → fade in bằng DOTween.
@@ -194,7 +194,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 18: Game Loop, debug và Profiler
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_18/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_18/Muc_luc.md)
 
 - Chưa có tài liệu ghép game loop: intro/menu/game, wave/spawn/chiến đấu/phần thưởng, game over/chơi lại/về menu; chưa có toàn bộ GamePlayManager.cs.
 - Chưa có bài đọc stack trace, NullReferenceException, IndexOutOfRangeException và MissingReferenceException trong Unity.
@@ -205,7 +205,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 19: Player Settings và build game
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_19/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_19/Muc_luc.md)
 
 - Chưa có bài Player Settings: tên game, Company Name, icon, Splash Screen, resolution và Fullscreen Mode.
 - Chưa có bài Build Settings: thứ tự scene và Development Build.
@@ -216,7 +216,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 20: Giải đáp và định hướng
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_20/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_20/Muc_luc.md)
 
 - Chưa có bộ câu hỏi/FAQ, tài liệu giải đáp và định hướng học tiếp. Đây là buổi trao đổi, Sheet không yêu cầu một bài lý thuyết cụ thể.
 
@@ -224,7 +224,7 @@ Buổi 1–5 đã có học liệu nhưng chưa phủ đủ lộ trình. Buổi 
 
 ## Buổi 21+: Các buổi mở rộng (21+)
 
-[Xem đầy đủ nội dung buổi theo Sheet](Buoi_21_plus/README.md)
+[Xem đầy đủ nội dung buổi theo Sheet](Buoi_21_plus/Muc_luc.md)
 
 - Sheet mới ghi nhóm buổi mở rộng dự kiến 10 buổi, ưu tiên Casual/Puzzle 2D/3D; chưa có nội dung chi tiết từng buổi để đối chiếu. Repo nguồn cũng chưa có tài liệu cho nhóm này.
 
