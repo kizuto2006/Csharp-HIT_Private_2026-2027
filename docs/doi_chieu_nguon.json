@@ -1,0 +1,319 @@
+{
+  "source_repository": "https://github.com/NguyenMinh205/C-Sharp_HIT_Private",
+  "source_commit": "ef7ff6384218e7b3fb1f1f2fb703debab3a8f074",
+  "retrieved_on": "2026-10-19",
+  "roadmap_url": "https://docs.google.com/spreadsheets/d/1my3AabWSuw7k8Oqvb2BUjIClRaJqPEOtVigYYT0cl9M/edit?gid=0#gid=0",
+  "roadmap_snapshot": "docs/lo_trinh_sheet.csv",
+  "scope": "All 50 teaching files tracked at the source commit; .gitattributes is repository configuration and is not imported.",
+  "algorithm": "SHA-256 of raw Git blob bytes; no content or line-ending normalization",
+  "files": [
+    {
+      "source": "Buoi_2/BTVN_Buoi_2.md",
+      "destination": "Buoi_2/BTVN_Buoi_2.md",
+      "sha256": "a106a725a25e16474117b66fad552d92dff67fe04b638b3bccb52bb39c3d344f",
+      "bytes": 4676
+    },
+    {
+      "source": "Buoi_2/Ly_thuyet_buoi_2_1.md",
+      "destination": "Buoi_1/Ly_thuyet_buoi_2_1.md",
+      "sha256": "8c77ece95f772beb1a49854d28c22f58595724661bdc1fdd5b0c28939bfb9bda",
+      "bytes": 6628
+    },
+    {
+      "source": "Buoi_2/Ly_thuyet_buoi_2_2.md",
+      "destination": "Buoi_2/Ly_thuyet_buoi_2_2.md",
+      "sha256": "ab7fd3642cb7c4f8e057d01e3d7fdfcfd6ee9ac2bf90570e7aa796a582da81a3",
+      "bytes": 6464
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/1. Giới thiệu ngôn ngữ C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/1. Giới thiệu ngôn ngữ C#.txt",
+      "sha256": "9e1b0c917040541c9e84ac9285f14544648cbd66ca828ac8226dd458de1f5a99",
+      "bytes": 2972
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/10. Cấu Trúc Lệnh Rẽ Nhánh if else Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/10. Cấu Trúc Lệnh Rẽ Nhánh if else Trong C#.txt",
+      "sha256": "19e881356e33b7297288df930ce6e23fccd97e4dc4932d7c870bb6baea7fe0b8",
+      "bytes": 6667
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/11. Cấu Trúc switch case Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/11. Cấu Trúc switch case Trong C#.txt",
+      "sha256": "5be350b5c2e43b80ed8e19678760d8b5754790b100bcbb7e074882dd906a9463",
+      "bytes": 5660
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/12. Vòng Lặp Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/12. Vòng Lặp Trong C#.txt",
+      "sha256": "6d78e93165f2f8785a75f674ab6998e0645e712e2db43650e4e531aed4ae0d04",
+      "bytes": 1827
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/13. Vòng Lặp for Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/13. Vòng Lặp for Trong C#.txt",
+      "sha256": "772937a0e4dc56ae9fb85fb3bace78d564413651c5e90757ff901c1db494ce85",
+      "bytes": 8095
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/14. Vòng Lặp while Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/14. Vòng Lặp while Trong C#.txt",
+      "sha256": "55f48f36424dd888944376b4bb0898cadded45931e19466317d4311aae850c1a",
+      "bytes": 2172
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/15. Vòng Lặp do while Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/15. Vòng Lặp do while Trong C#.txt",
+      "sha256": "cf33d9f09c1f4d0cd8ada5799fd0ea1c5e13ba105921dccc60808a0947d61a7c",
+      "bytes": 2332
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/16. Mảng 1 Chiều Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/16. Mảng 1 Chiều Trong C#.txt",
+      "sha256": "a1d079508984f5f1f0c8c72c6d57d657986fc6c3a8d021ba2d6595d16b7daeea",
+      "bytes": 10777
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/17. Mảng 2 Chiều Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/17. Mảng 2 Chiều Trong C#.txt",
+      "sha256": "060fe8eb8cf151850adf85a671f4a7b31fd004d644bf9ab4b8905938ba07e490",
+      "bytes": 10958
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/18. Mảng Nhiều Chiều Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/18. Mảng Nhiều Chiều Trong C#.txt",
+      "sha256": "ecbb9c6658b3d0356bb3ccf90137512be805af37f5c4ae9857f89bb14b01ad4b",
+      "bytes": 15628
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/19. Kiểu Chuỗi String Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/19. Kiểu Chuỗi String Trong C#.txt",
+      "sha256": "2d04106187004624d5eea3162ea562d6f1a2bed7a65f8c32a7165b6527df0362",
+      "bytes": 12695
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/2. Cấu Trúc Chương Trình Cơ Bản C# Console.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/2. Cấu Trúc Chương Trình Cơ Bản C# Console.txt",
+      "sha256": "e0b68aac7fddcc12e882ba48dd1dd9017223707d3591e8cee34de82c11219391",
+      "bytes": 6888
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/20. Cấu Trúc Hàm Cơ Bản Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/20. Cấu Trúc Hàm Cơ Bản Trong C#.txt",
+      "sha256": "cb7d7967307113afae32945e6eaea8d672f68af8b40dfbbbb4f0c36b7f06cd42",
+      "bytes": 12078
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/3. Nhập Xuất Cơ Bản Trong C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/3. Nhập Xuất Cơ Bản Trong C#.txt",
+      "sha256": "a8d683e4c5e19463bcb0d047e4f66ab1dc642ee460362380b93e87cb962d1fcf",
+      "bytes": 7913
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/4. Biến Trong C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/4. Biến Trong C#.txt",
+      "sha256": "89d9565a812fd5b666e5cbd645434c4f31421a5cb929e30d48826695e39d3c24",
+      "bytes": 5731
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/5. Biến Toàn Cục Và Biến Cục Bộ Trong C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/5. Biến Toàn Cục Và Biến Cục Bộ Trong C#.txt",
+      "sha256": "45f5a20d4bf756e4773332d418eb418b4a6006e5250be7f546d3058f98477076",
+      "bytes": 3835
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/6. Kiểu Dữ Liệu Trong C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/6. Kiểu Dữ Liệu Trong C#.txt",
+      "sha256": "7dbff68593c4e0375dc40ddd840c88ab9cc6cac839df1fd5d85d3c6a53525cde",
+      "bytes": 8740
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/7. Toán Tử Trong C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/7. Toán Tử Trong C#.txt",
+      "sha256": "df567f25ce3c065275784c6aa19c7514fe59cecafa4b982af3b4acba7c4ff236",
+      "bytes": 15466
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/8. Hằng Trong C#.txt",
+      "destination": "Buoi_1/Tai_lieu_cu_the/8. Hằng Trong C#.txt",
+      "sha256": "d259967649f9f8887b27ed37ff1eed9e8237278ae922d1c3ecbcc1b60cc05e6c",
+      "bytes": 3186
+    },
+    {
+      "source": "Buoi_2/Tai_Lieu_Cu_The/9. Ép Kiểu Trong C#.txt",
+      "destination": "Buoi_2/Tai_lieu_cu_the/9. Ép Kiểu Trong C#.txt",
+      "sha256": "edee8014b44c40dd64c3946ca4da42159b2dd74fb902490892d3762c29c62b22",
+      "bytes": 13190
+    },
+    {
+      "source": "Buoi_3/BTVN_Buoi_3.md",
+      "destination": "Buoi_3/BTVN_Buoi_3.md",
+      "sha256": "f626c14e2a096505f93027166e0b50e4c37b17bf5bcf234a2da3f04933c654d2",
+      "bytes": 2374
+    },
+    {
+      "source": "Buoi_3/Ly_thuyet_buoi_3.md",
+      "destination": "Buoi_3/Ly_thuyet_buoi_3.md",
+      "sha256": "de567b699fc13dedf5fe9e257322fcdfe1f49faaac8cc520e5304b6d9d98d2a9",
+      "bytes": 7872
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/1. Tổng Quan Về Collection Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/1. Tổng Quan Về Collection Trong C#.txt",
+      "sha256": "05bd9feaae580a8d7aee2a6da380d3d715372e1752ec4d3bc445ee8f18ffe837",
+      "bytes": 4682
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/2. List Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/2. List Trong C#.txt",
+      "sha256": "d68958d73edd83fb8dbe2d51bea5309064242cc6b570a2ebe034cb999582d770",
+      "bytes": 4241
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/3. Dictionary Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/3. Dictionary Trong C#.txt",
+      "sha256": "4acd738e3704333c30c5ef375615ed1a1cc897f9d9a792668db66513857dae5d",
+      "bytes": 5685
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/4. Stack Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/4. Stack Trong C#.txt",
+      "sha256": "c83034ffc4cbffd135abb8dc99ba99c4f2b257c670243cec5452f14ef3d39c52",
+      "bytes": 4972
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/5. Queue Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/5. Queue Trong C#.txt",
+      "sha256": "7fcb331012a1ea3a64777288f489bc27a7f144803ac5f8fb2f306059c858b8c9",
+      "bytes": 5119
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/6. Enum Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/6. Enum Trong C#.txt",
+      "sha256": "f04496440b66a3b78f4025842cd86544f673db339bee0317f17845f4bb9191bc",
+      "bytes": 4445
+    },
+    {
+      "source": "Buoi_3/Tai_lieu_cu_the/7. Struct Trong C#.txt",
+      "destination": "Buoi_3/Tai_lieu_cu_the/7. Struct Trong C#.txt",
+      "sha256": "b4cc61bb74e9d3693a5188b295522476f3bf14cbb561948d0668c066e779a76b",
+      "bytes": 3166
+    },
+    {
+      "source": "Buoi_4/BTVN_Buoi_4.md",
+      "destination": "Buoi_4/BTVN_Buoi_4.md",
+      "sha256": "e5cdcdc9da36861a7c1d89cdf61da6c28bb6cf9a63f695baa5b3058448c2a2ac",
+      "bytes": 2606
+    },
+    {
+      "source": "Buoi_4/Ly_thuyet_buoi_4.md",
+      "destination": "Buoi_4/Ly_thuyet_buoi_4.md",
+      "sha256": "d63d5b9c72d47d5d0b5aa91d8433dfdbf79b830da1b3b1af6146e3a827f11805",
+      "bytes": 10176
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/1. Tổng Quan Về Lập Trình Hướng Đối Tượng.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/1. Tổng Quan Về Lập Trình Hướng Đối Tượng.txt",
+      "sha256": "3c28a734a54ba5a2566c08033b26dcc6143d6c74f32822be68ea2777e3ae19b1",
+      "bytes": 7764
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/2. Class Trong C#.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/2. Class Trong C#.txt",
+      "sha256": "74536ba4f45b5db306bd137c405e27b0d31b06f9e099aa3301b396dfd206a639",
+      "bytes": 10909
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/3. Các Loại Phạm Vi Truy Cập Trong C#.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/3. Các Loại Phạm Vi Truy Cập Trong C#.txt",
+      "sha256": "73c5cf8628039d29bfebbbcd34cb84062679250e110ddf28967b72af8e4f6ddd",
+      "bytes": 11247
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/4. Kế Thừa Trong OOP C#.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/4. Kế Thừa Trong OOP C#.txt",
+      "sha256": "22ae2186cc0f2a9db4f161530d4831d07f36f64afaaf8ba2cd4bcd2c33d8620c",
+      "bytes": 8871
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/5. Tính Đa Hình Trong OOP C#.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/5. Tính Đa Hình Trong OOP C#.txt",
+      "sha256": "d6caebcb2e69e11d83c6dbcc7a7abf66abfebf827eb5d76ba15ce9d038019def",
+      "bytes": 7527
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/6. Từ Khoá Static Trong C#.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/6. Từ Khoá Static Trong C#.txt",
+      "sha256": "a6e6bd9375454445871d03ab8fd5a841d2d47f8cec2adb9abfbd390f6e2d2b65",
+      "bytes": 12281
+    },
+    {
+      "source": "Buoi_4/Tai_lieu_cu_the/7. Từ Khóa This Trong C#.txt",
+      "destination": "Buoi_4/Tai_lieu_cu_the/7. Từ Khóa This Trong C#.txt",
+      "sha256": "26fcca27f5a6d826cbc5cb1d0e4fe75d8b7cdca5ad86a01c6d6eb5a483787cd9",
+      "bytes": 3878
+    },
+    {
+      "source": "Buoi_5/BTVN_Buoi_5.md",
+      "destination": "Buoi_5/BTVN_Buoi_5.md",
+      "sha256": "1dae26bc2a758a65fc879e7b915943eaaa4fe0546779f1863af508c40271f2c0",
+      "bytes": 6758
+    },
+    {
+      "source": "Buoi_5/Ly_thuyet_buoi_5.md",
+      "destination": "Buoi_5/Ly_thuyet_buoi_5.md",
+      "sha256": "af007666fe68860b44088a3c4d185561e58e1ecdefdaf2b24efc1e29815b5382",
+      "bytes": 6031
+    },
+    {
+      "source": "Buoi_5/Tai_lieu_cu_the/1. Override, Overload trong C#.txt",
+      "destination": "Buoi_5/Tai_lieu_cu_the/1. Override, Overload trong C#.txt",
+      "sha256": "d20fea0f7acf78de254c8d6e873eefb4a22b076603e71fd515b322e3efcc506c",
+      "bytes": 5114
+    },
+    {
+      "source": "Buoi_5/Tai_lieu_cu_the/2. Interface Trong OOP C#.txt",
+      "destination": "Buoi_5/Tai_lieu_cu_the/2. Interface Trong OOP C#.txt",
+      "sha256": "7819c768bbbb187773c8c1ea0822c31f453249412adf895ed7f47231ec8cae37",
+      "bytes": 8666
+    },
+    {
+      "source": "Buoi_5/Tai_lieu_cu_the/3. Generic Trong C#.txt",
+      "destination": "Buoi_5/Tai_lieu_cu_the/3. Generic Trong C#.txt",
+      "sha256": "200ec877cafcb8f555fa365d90e9df190693d3edc8667674b406dd30bc8436c3",
+      "bytes": 6006
+    },
+    {
+      "source": "Buoi_5/Tai_lieu_cu_the/4. Delegate Trong C#.txt",
+      "destination": "Buoi_5/Tai_lieu_cu_the/4. Delegate Trong C#.txt",
+      "sha256": "2e0aa5aaa7a2d0da1a3c7f697975a122f467848cebcc161a0910f1b8d70297ef",
+      "bytes": 9805
+    },
+    {
+      "source": "Buoi_5/Tai_lieu_cu_the/5. Quy tắc SOLID.txt",
+      "destination": "Buoi_5/Tai_lieu_cu_the/5. Quy tắc SOLID.txt",
+      "sha256": "8f1aa8333d27b8e650a73cc4d593a462b7b6032dfbc230197106b74e73884328",
+      "bytes": 7360
+    },
+    {
+      "source": "Buoi_5/Tai_lieu_cu_the/6. Giới thiệu về Linq trong C#.txt",
+      "destination": "Buoi_5/Tai_lieu_cu_the/6. Giới thiệu về Linq trong C#.txt",
+      "sha256": "0dd5d4419f59dd99c5414bd96186e8161538d52602e4e4f309d9ecd5c5d76086",
+      "bytes": 9576
+    },
+    {
+      "source": "README.md",
+      "destination": "Buoi_1/Huong_dan_Git_nguon.md",
+      "sha256": "a76e926ced38b00b8b40d12dba25f49121f8a06cd6653867e958151e98456b5d",
+      "bytes": 5769
+    }
+  ],
+  "preserved_local_files": [
+    {
+      "source": "README.md",
+      "destination": "Buoi_1/Huong_dan_Git.md",
+      "sha256": "3cb49c905f461d0259dc699cfb2d7757cca5af9815d261d2c589d429e027c701",
+      "bytes": 6337
+    }
+  ]
+}

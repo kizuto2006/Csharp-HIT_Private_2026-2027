@@ -1,0 +1,209 @@
+Buổi,Nội dung,Ghi chú,Tài liệu ,BTVN
+1,"- Giới thiệu lớp và lộ trình giảng dạy, công cụ sử dụng, tài liệu học tập của lớp
+- Cài đặt công cụ: Git Bash, GitHub Desktop, Fork
+- Thao tác Git cơ bản: clone, commit, push, pull
+- Xử lý conflict đơn giản
+- Làm quen IDE: JetBrains Rider / Visual Studio
+- Nền tảng C# cơ bản: nhập xuất (Console.WriteLine, Console.ReadLine)
+- Kiểu dữ liệu nguyên thuỷ: int, float, bool, char, string
+- Khai báo biến, hằng số (const)
+- Toán tử: số học, so sánh, logic 
+",- Tất cả các Supporter cần có mặt,"- Link tài liệu của Leader   
+Link download Visual Studio: Link
+Link download Rider: Link",
+2,"- Vòng lặp: for, while, do-while, foreach, break, continue
+- Toán tử ba ngôi (? :)
+- Ép kiểu tường minh và ngầm định ((int), Convert.ToInt32)
+- Cấu trúc điều kiện: if-else, switch-case
+- Cách format code theo chuẩn C# (naming convention, indentation)
+- Mảng (int[], string[]): khai báo, duyệt, truy cập phần tử
+- Chuỗi (string): nối chuỗi, Length, Substring, Contains, Replace, ToUpper/Lower
+- string interpolation ($""HP: {hp}"")
+- Hàm: khai báo, tham số, giá trị trả về, overload 
+",,,
+3,"- Kiểu dữ liệu object, từ khoá var, dynamic
+- List<T>: thêm, xoá, duyệt, truy cập, Count, Contains, Find
+- Dictionary<K, V>: thêm, xoá, tra cứu, ContainsKey, TryGetValue
+- Stack<T> và Queue<T>: khi nào dùng cái nào
+- HashSet<T>: đặc điểm không trùng, dùng khi cần kiểm tra tồn tại nhanh
+- Enum: khai báo, dùng trong switch-case
+- Struct: so sánh với class, khi nào dùng
+- Giới thiệu #region — cách tổ chức code gọn trong file dài ",,,
+4,"- OOP C# và các tính chất: Encapsulation, Inheritance, Polymorphism, Abstraction
+- Class và đối tượng: khai báo, new, constructor
+- Thuộc tính: field private + property { get; set; } vs { get => ...; }
+- Phương thức: instance method, tham số ref/out
+- Từ khoá static: biến tĩnh, phương thức tĩnh, static class
+- Phạm vi truy cập: public, private, protected, internal
+- Con trỏ this
+- Từ khoá virtual, abstract, override
+- Kế thừa: lớp cha → lớp con, base.Method()
+- readonly: khác const ở điểm nào
+- Cú pháp ?. (null conditional), ?? (null coalescing)
+- Expression body: public int HP => _hp;",,,
+5,"- Interface: khai báo, implement, tại sao không dùng class
+- IGetHit — viết interface 1 method như trong project
+- override vs overload — phân biệt rõ
+- Generic <T>: viết method generic, đọc List<T> hiểu hơn
+- Generic Constraint: where T : class, where T : MonoBehaviour, where T : Component
+- delegate và event: khai báo, subscribe, invoke
+- Action<T>, Func<T>: lambda expression cơ bản
+- as casting vs (Type) casting — khi nào dùng cái nào
+- Nguyên tắc SOLID — 5 nguyên tắc, ví dụ thực tế từ Tank Battle
+- Giới thiệu Linq: Where, Select, Find, FirstOrDefault (đọc hiểu, không bắt buộc nhớ) ",,,
+6,"- Review và làm bài kiểm tra về OOP với C#
+- Sửa bài, giải đáp thắc mắc
+- Làm quen Unity Editor: cửa sổ Scene, Game, Project, Inspector, Hierarchy, Console
+- Mở project Tank Battle, đọc cấu trúc thư mục Assets
+- Tạo GameObject đơn giản (Empty, Cube 2D) trong scene
+- Hiểu khái niệm: mọi thứ trong Unity là GameObject, hành vi là Component
+- Làm quen Package Manager ",- Tất cả các Supporter cần có mặt,,
+7,"- Transform: Position, Rotation, Scale — hệ tọa độ 2D Unity
+- Space.World vs Space.Self
+- SpriteRenderer: import Sprite, Sorting Layer, Order in Layer
+- Rigidbody2D: Dynamic vs Kinematic, Gravity Scale, Constraints
+- Collider2D: BoxCollider2D, CircleCollider2D
+- Collision vs Trigger — sự khác nhau, cách chọn
+- Viết MonoBehaviour đầu tiên: tạo file script, attach vào GameObject
+- [SerializeField] — hiển thị field private trên Inspector
+- [Header(""..."")] — nhóm field trong Inspector
+- GetComponent<T>() — lấy component trên cùng GameObject
+- Layer: tạo Layer, gán cho GameObject",,,
+8,"- MonoBehaviour lifecycle đầy đủ: Awake → OnEnable → Start → Update → FixedUpdate → LateUpdate → OnApplicationQuit → OnDisable → OnDestroy
+- Time.deltaTime — tại sao cần, framerate-independent movement
+- Time.timeScale — pause/resume game
+- Input cũ: Input.GetKey, Input.GetKeyDown, Input.GetAxis, Input.GetMouseButton
+- OnCollisionEnter2D vs OnTriggerEnter2D — khi nào gọi, truyền tham số gì
+- Physics2D.Raycast — bắn tia, phát hiện vật cản
+- Physics2D.OverlapCircleAll — phát hiện vật trong vùng tròn
+- Quaternion.Euler(0, 0, angle) — xoay theo góc Z
+- Mathf.Atan2, Mathf.Rad2Deg — tính góc từ vector",,,
+9,"- Prefab: tạo, edit, Prefab Variant, unpack
+- Instantiate(prefab, position, rotation) — spawn object
+- Destroy(gameObject, delay) — xoá object
+- Animator Controller: tạo State, Transition, Parameter (bool, float, trigger)
+- Animator.SetTrigger, SetBool, SetFloat từ script
+- Animation Clip: tạo animation đơn giản trong Unity
+- OnDisable dùng trong MonoBehaviour — unsubscribe event, dọn dẹp
+- Scoring đơn giản: biến static int score tạm thời (sau sẽ refactor)
+",,,
+10,"- Canvas: Screen Space — Overlay vs Camera vs World Space
+- Rect Transform: Anchor, Pivot, Stretch — hiểu bố cục responsive
+- Image: Source Image, Color, Fill Amount (dùng cho HP bar)
+- Button: OnClick event trong Inspector và trong code
+- Slider: Min, Max, Value, dùng cho volume
+- TextMesh Pro: tại sao dùng thay Text cũ, import TMP Essential Resources
+- TMP_Text.text = value.ToString() — cập nhật text từ code
+- Raycast Target — tắt khi không cần thiết để tối ưu
+- Hiển thị HP bar, Shield bar, điểm số, số wave lên HUD
+- Canvas Group — fade in/out cả nhóm UI ",,,
+11,"-- Singleton Design Pattern
+  + Vấn đề: nhiều Manager instance gây lỗi
+  + Giải pháp: class Singleton generic Singleton<T> where T : MonoBehaviour
+  + Đọc code Singleton.cs trong project
+  + DontDestroyOnLoad — giữ object qua scene
+  + Cạm bẫy: duplicate instance khi load scene
+- Object Pooling Pattern
+  + Vấn đề: Instantiate/Destroy mỗi frame → GC spike → giật frame
+  + Giải pháp: pool — tắt/bật thay vì tạo/xoá
+  + Đọc code PoolingManager.cs — static class, Dictionary<int, Pool>, Stack<GameObject>
+  + PoolingManager.Spawn() và PoolingManager.Despawn()",,,
+12,"- Coroutine: IEnumerator, StartCoroutine, StopCoroutine
+- yield return: WaitForSeconds, WaitForFixedUpdate, null (đợi 1 frame)
+- WaitForSeconds — tránh tạo mới mỗi lần, cache lại
+- ScriptableObject
+  + Tại sao không hardcode số liệu trong code
+  + [CreateAssetMenu] — tạo SO từ menu chuột phải
+  + [System.Serializable] — hiển thị class thường trong Inspector và khi serialize
+  + Đọc EnemyInfoSO.cs, WaveInfoSO.cs, RewardSO.cs
+  + ScriptableObject.CreateInstance<T>() — tạo clone SO tại runtime (tránh sửa asset gốc)
+- Lưu trữ dữ liệu với PlayerPrefs
+  + PlayerPrefs.SetInt/GetInt, SetFloat/GetFloat, SetString/GetString
+  + PlayerPrefs.Save() — khi nào gọi
+  + string.Join, string.Split — serialize List thành string để lưu
+  + string.IsNullOrEmpty — kiểm tra an toàn trước khi xử lý
+- Đọc DataManager.cs — cách tổ chức data layer: Load/Save, #region, const default values ",,,
+13,"- Giới thiệu về DOTween Framework
+- Animator nâng cao
+  + Blend Tree — nhiều animation blend theo float
+  + Animation Event — gọi function C# từ keyframe
+  + AnimatorOverrideController — đổi clip runtime
+- Audio System
+  + AudioSource: PlayOneShot, clip, volume, loop
+  + AudioListener — chỉ cần 1 trên scene
+  + BGM vs SFX — 2 AudioSource riêng biệt
+  + Đọc AudioManager.cs — Singleton quản lý tất cả âm thanh ",,,
+14,"- Observer Pattern
+  + Vấn đề: tight coupling — GamePlayManager gọi thẳng UIController, AchievementManager...
+  + Giải pháp: Publish/Subscribe — ai cần thì đăng ký, không cần biết nhau
+  + Đọc ObserverManager<T> where T : Enum — generic static class
+  + AddRegisterEvent, PostEvent, RemoveAddListener, RemoveAllEvent
+  + Tại sao dùng Action<object> thay vì Action<T> cụ thể
+  + Đọc AchievementManager.cs — subscribe trong Awake, unsubscribe trong OnDisable
+- Factory Pattern
+  + Vấn đề: if-else dài để tạo nhiều loại object giống nhau
+  + Giải pháp: Factory Method — định nghĩa interface, lớp con quyết định tạo gì
+  + Đọc BarrelBase (abstract) → BasicBarrel, LazerBarrel, MultipleShotBarrel, BombBarrel
+  + abstract void Fire() — lớp con tự implement cách bắn
+  + BarrelController.ChangeTypeOfBarrel() — đổi barrel runtime ",,,
+15,"- State Machine Pattern
+  + Vấn đề: quản lý trạng thái bằng bool lồng nhau = spaghetti code
+  + Enum-based State Machine: GameState { Playing, Paused, GameOver, ChoosingReward }
+  + Chuyển state bằng switch-case, validate transition hợp lệ
+  + Đọc GamePlayManager — IsGamePaused, IsChoosingReward, IsInstructionShown",,,
+16,"- Visual Effects
+  + Particle System: tổng quan các module — Emission, Shape, Lifetime, Size, Color over Lifetime, Velocity
+  + Tạo hiệu ứng explosion (vụ nổ), muzzle flash (lửa bắn), appear effect (khi enemy spawn)
+  + Dùng PoolingManager để pool Particle System — ps.Play(), despawn sau duration + maxLifetime
+  + Đọc EnemyManager.SpawnAppearEffect() và DespawnParticleAfter() Coroutine
+- Universal Render Pipeline (URP)
+  + So sánh Built-in vs URP: performance, tính năng
+  + Cách migrate project sang URP
+  + URP Asset: chỉnh Shadow, Anti-aliasing, Post Processing
+  + 2D Renderer URP — phù hợp game 2D
+  + Light 2D cơ bản: Global Light, Point Light ",,,
+17,"- Scene Management
+  + SceneManager.LoadScene(name) và LoadScene(index)
+  + SceneManager.LoadSceneAsync — load không đứng hình
+  + AsyncOperation.progress — hiển thị loading bar
+  + SceneManager.GetActiveScene().name
+  + Đọc LoadScene.cs — fade out → load async → fade in bằng DOTween
+- DontDestroyOnLoad
+  + Mục đích: giữ object qua scene (DataManager, AudioManager, AchievementManager)
+  + Cạm bẫy duplicate: cần kiểm tra instance đã tồn tại chưa (đã xử lý trong Singleton.cs)
+- Menu Flow
+  + IntroScene (Splash) → MenuScene → GameScene
+  + Build Settings: thêm scene đúng thứ tự index
+  + PlayerPrefs lưu data qua scene load ",,,
+18,"- Game Loop hoàn chỉnh
++ Mở game → IntroScene → MenuScene → GameScene
++ Trong game: Start → Wave bắt đầu → Spawn enemy → Player chiến đấu → Wave kết thúc → Chọn phần thưởng → Wave tiếp theo
++ Game Over → Hiển thị kết quả → Chơi lại hoặc về Menu
++ Đọc toàn bộ GamePlayManager.cs — ghép các hệ thống lại
+- Debug trong Unity
+  + Đọc stack trace trên Console — tìm dòng gây lỗi
+  + Exception phổ biến: NullReferenceException, IndexOutOfRangeException, MissingReferenceException
+  + Debug.Log, Debug.LogWarning, Debug.LogError
+  + Debug.DrawRay, Debug.DrawLine — visualize raycast trong Scene view
+  + Gizmos: OnDrawGizmos, OnDrawGizmosSelected — vẽ sphere/line trong editor
+  + Time.timeScale = 0 để pause debug, breakpoint trong Rider/VS
+  + Unity Profiler cơ bản — xem CPU, memory spike",,,
+19,"- Player Settings
+  + Tên game, Company Name
+  + Icon ứng dụng (các kích thước)
+  + Splash Screen: thêm logo, chỉnh màu nền, thời gian hiển thị
+  + Default Screen Resolution, Fullscreen Mode
+- Build Settings
+  + Thêm scene đúng thứ tự (index 0 = scene đầu tiên load)
+  + Development Build — bật để xem log trên build
+- Build cho PC (Windows)
+  + Platform: Standalone Windows x64
+  + Build ra thư mục, chạy file .exe
+- Build cho WebGL
+  + Cài module WebGL trong Unity Hub
+  + Compression: Gzip vs Brotli
+  + Memory size: 256MB mặc định, tăng nếu cần
+  + Template: Default vs Minimal
+  + Upload lên itch.io — Public, embed WebGL",,,
+20,"Giải đáp câu hỏi, định hướng tiếp theo",,,
+21+,"Các buổi mở rộng (dự kiến 10 buổi, học bổ sung các kiến thức thực tế/cần thiết - ưu tiên dạy về phần Casual/Puzzle 2D 3D)",,,
